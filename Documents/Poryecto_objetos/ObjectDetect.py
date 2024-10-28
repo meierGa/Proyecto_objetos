@@ -4,7 +4,7 @@ import cv2
 # Guardamos en variables los pesos, la arquitectura y las clases del modelo previamente entrenado
 model = 'frozen_inference_graph.pb'
 config = 'ssd_mobilenet_v2_coco_2018_03_29.pbtxt'
-clases = 'coco_labels.txt'
+clases = 'requirements.txt'
 
 # Extraemos las etiquetas del archivo
 with open(clases) as cl:
